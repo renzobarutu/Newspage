@@ -1,0 +1,30 @@
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #00008B;
+}
+.logo-wrapper{
+  text-transform: uppercase;
+  padding: 30px 0px;
+}
+.menu{
+  background: #000000;
+}
+.menu-items .active{
+  background: blue;
+}
+.menu .menu-items a{
+  text-decoration: none;
+  color: fff;
+  padding: 10px 30px;
+  display: flex;
+}
+
+.menu .menu-items {
+  display: flex;
+  justify-content: center;     
+  align-items: center;         
+  gap: 0px; 
