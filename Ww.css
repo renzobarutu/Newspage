@@ -108,7 +108,7 @@ display: none;
 }
 
 #darkmode-toggle:checked + .darkmode-toggle .toggle-icon::before {
-  content: "\f185"; /* sun */
+  content: "\f185"; 
   color: orange;
 }
 
