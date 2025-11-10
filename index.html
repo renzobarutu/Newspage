@@ -1,53 +1,112 @@
 <html>
-
-  <head>  
+<head>  
   <meta charset="utf-8">
-  <meta name="viewfort" content="width=device-width, initial-scale=1.0">
-    <title>NEWS PAGE</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="Ww.css">
-  <link rel="stylesheet" href="https://getbootstrap.com/">
-</head>
- 
-  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoi News Page</title>
 
-   <div class="my_container"> 
-      <h1>Hoi News Page</h1> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Ww.css">
+</head>
+
+<body>
+
+<input type="checkbox" id="darkmode-toggle">
+<label class="darkmode-toggle" for="darkmode-toggle">
+<i class="fas toggle-icon"></i>
+
+<span class="star" style="top:40%; left:10%; width:2px; height:2px"></span>
+<span class="star" style="top:30%; left:60%; width:3px; height:3px;"></span>
+<span class="star" style="top:70%; left:25%; width:1px; height:1px;"></span>
+<span class="star" style="top:50%; left:80%; width:2px; height:2px;"></span>
+<span class="star" style="top:20%; left:40%; width:1px; height:1px;"></span>
+
+</label>
+
+<a href="weather.html" class="earth-toggle">
+<i class="fa-solid fa-earth-asia"></i>
+</a>
+
+<div class="page">
+
+<div class="top-section">
+
+  <header class="my_container">
+    <h1>Hoi News Page</h1>
+  </header>
+
+  <nav class="menu">
+    <div class="container">
+      <div class="menu-items">
+        <a href="#" class="active">Entertainment</a>
+        <a href="">Sports</a>
+        <a href="fasio.html">Fashion</a>
+        <a href="#">Comics</a>
+      </div>
     </div>
-    
-      <div class="container-fluid menu">
-        <div class="container">
-          <div class="d-flex menu-items">
-            <div class="Active">
-            <a href="">Entertainments Page</a>
-            </div>
-            <div>
-              <a href="">Sports Page</a>
-          </div>
-            <div>
-              <a href="">Fasion Page</a>
-            </div>
-              <div>
-             <a href="">Comic Page</a>
-            </div>
+  </nav>
+
+  <section class="breaking-news-section">
+    <span id="bntext"><i class="fas fa-bolt"></i> Breaking News:</span>
+    <marquee direction="left" scrollamount="6">
+      <a href="#" class="breaking-news">
+        <p class="bntime">Jan 20, 2019</p>
+        Congress has been killed
+      </a>
+      <a href="#" class="breaking-news">
+        <p class="bntime">Feb 20, 2020</p>
+        An earthquake has destroyed city hall
+      </a>
+    </marquee>
+  </section>
+
+</div>
+
+  <section class="news-section container mt-5">
+    <h2 class="text-center mb-4">Latest News</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://od2-image-api.abs-cbn.com/prod/20251107141132/bf4620beccb46f48a1aba6d893b3388e1197ca7f2942a931e9ce1420f7ca4cf7.jpg?w=306&h=204" class="card-img-top" alt="news1">
+          <div class="card-body">
+            <h5 class="card-title">Kyle Echarri, Donny Pangilinan refused stunt doubles in most 'Roja' fight scenes</h5>
+            <p class="card-text">Kyle Echarri and Donny Pangilinan revealed they pushed their limits in their most action-packed roles yet, performing most of their stunts for the upcoming series “Roja” themselves. </p>
+            <a href="https://www.msn.com/en-ph/sports/general/kyle-ehcarri-donny-pangilinan-refused-stunt-doubles-in-most-roja-fight-scenes/ar-AA1Q0lXq" class="btn btn-sm btn-primary">View more</a>
           </div>
         </div>
       </div>
-    
-    <div class="breaking-news-section">
-      <span id="bntext">Breaking news</span>
-      <marquee direction="left">
-        <a href="#" class="breaking-news">
-          <p class="bntime">jan 20 2019</p>
-          congress has been killed 
-        </a>
-        <a href="#" class="breaking-news">
-          <p class="bntime">feb 20 2020</p>
-          an earthquake has destroyed city hall
-        </a>
-      </marquee>
+
+<div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://od2-image-api.abs-cbn.com/prod/editorImage/1762593036518viber_image_2025-11-08_16-49-30-830.jpg" class="card-img-top" alt="news2">
+          <div class="card-body">
+            <h5 class="card-title">TNT grand champ Kent Villarba plans to donate part of prize to Cebu
+</h5>
+            <p class="card-text">New Tawag ng Tanghalan grand champion Kent Villarba said he plans to donate part of his prize money to help Filipinos affected by the recent flooding in Cebu.</p>
+            <a href="https://www.abs-cbn.com/entertainment/showbiz/movies-series/2025/11/8/tnt-grand-champ-kent-villarba-plans-to-donate-part-of-prize-to-cebu-1714" class="btn btn-sm btn-primary">View more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://od2-image-api.abs-cbn.com/prod/editorImage/1762566542346481958925_1180487520099554_4810812559164248255_n.jpg" class="card-img-top" alt="news3">
+          <div class="card-body">
+            <h5 class="card-title">Kendrick Lamar leads Grammy nominations with 9
+</h5>
+            <p class="card-text">Designers are embracing vintage flair and sustainability in this year’s most talked-about runway event.</p>
+            <a href="https://www.abs-cbn.com/entertainment/showbiz/music/2025/11/8/kendrick-lamar-leads-grammy-nominations-with-9-0957" class="btn btn-sm btn-primary">View more</a>
+          </div>
+        </div>
+      </div>
     </div>
-  
-      
-   </body>
+  </section>
+
+</div>
+
+  <footer class="text-center text-light py-4 mt-5" style="background-color:#000;">
+    <p>Emc Hoi News | News has been served</p>
+  </footer>
+
+</body>
 </html>
