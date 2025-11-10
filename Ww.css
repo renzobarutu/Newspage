@@ -187,7 +187,7 @@ border: none;
   overflow: hidden;
   background: #fff;
 margin-bottom: 30px;
-transition: transform 0.3s, box-shadow 0.3s color;
+transition: transform 0.3s, box-shadow 0.3s color
 }
 
 .news-card .card-body{
@@ -207,6 +207,20 @@ justify-content: space-between;
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
+.panahon-section { 
+padding-top: 230px
+display: display;
+justify-content: center;
+align-items: center;
+}
+
+.panahon-section iframe {
+width: 100%;
+height: 71vh;
+border-radius: 15px;
+}
+
+
 .footer{
   font-size: 14px;
   text-align: center;
@@ -219,6 +233,7 @@ transition: background 0.3s, color 0.3s;
 .news-section {
 padding-top: 220px;
 }
+
 
 #darkmode-toggle:checked ~ .page {
 background: #000;
